@@ -1,0 +1,451 @@
+body{
+    font-family:'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+.cage2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 600px;
+}
+.cage{
+    width: 905px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+.cage1{
+    width: 905px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+.cage > div {
+    display: flex;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+}
+.cage1 > div {
+    display: flex;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+}
+img{
+    width: 50px;
+    height: 50px;
+}
+.airplane{
+    border-bottom: 1px solid black;
+}
+.map{
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+.film{
+    border-bottom: 1px solid black;
+}
+.oclock{
+    border-right: 1px solid black;
+}
+.atom{
+    border-left: 1px solid black;
+}
+nav{
+    border-bottom: 1px solid black;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.one{
+    display: flex;
+    align-items: center;
+}
+.one > a{
+    margin: 15px;
+    color: black;
+    text-decoration: none;
+}
+.one > a:hover{
+    text-decoration: underline;
+}
+.two > a > img{
+    width: 25px;
+    height: 25px;
+    margin: 10px;
+}
+.four > img{
+    width: 480px;
+    height: 431px;
+}
+.content{
+    width: 100%;
+    height: 430px;
+    display: flex;
+    justify-content: center;
+    text-align: flex-start;
+}
+.three{
+    height: 430px;
+    text-align:flex-start;
+    width: 40%;
+    border-bottom: 1px solid black;
+}
+.three > h1{
+    margin-top: 80px;
+}    
+.four{
+    width: 30%;
+}
+.btn-1{
+    width: 150px;
+    height: 35px;
+    border: none;
+    border: 1px solid gray;
+    color: gray;
+    background-color: white;
+    border-radius: 5px;
+    transition: all 0.4s;
+}
+.btn-1:hover{
+    color: white;
+    background-color: gray;
+}
+.content2{
+    width: 100%;
+    height: 430px;
+    display: flex;
+    justify-content: center;
+    text-align: flex-start;
+}
+.six{
+    height: 430px;
+    text-align:flex-start;
+    width: 40%;
+    border-bottom: 1px solid black;
+}
+.six > h1{
+    margin-left: 70px;
+    margin-top: 80px;
+}
+.six > h5{
+    margin-left: 70px;
+} 
+.five{
+    width: 30%;
+}
+.five > img{
+    width: 405px;
+    height: 431px;
+}
+.six > .btn-1{
+    margin-left: 70px;
+}
+.seven > img{
+    width: 480px;
+    height: 431px;
+}
+.content3{
+    width: 100%;
+    height: 430px;
+    display: flex;
+    justify-content: center;
+    text-align: flex-start;
+}
+.eight{
+    height: 430px;
+    text-align:flex-start;
+    width: 40%;
+    border-bottom: 1px solid black;
+}
+.eight > h1{
+    margin-top: 80px;
+}    
+.seven{
+    width: 30%;
+}
+.gallery{
+    width: 100%;
+    height: 400px;
+}
+.write{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+    width: 100%;
+    height: 600px;
+}
+.row{
+    align-items: center;
+    display: flex; 
+}
+.inp1{
+    text-align: left;
+    margin-left: 15px;
+}
+.contact{
+    display: flex;
+    align-items: center;
+}
+.contact > *{
+    margin-left: 20px;
+}
+.topic{
+    text-align: left;
+}
+.message{
+    text-align: left;
+}
+.topic > select{
+    width: 500px;
+    height: 30px;
+}
+.message > input{
+    width: 500px;
+    height: 300px;
+}
+.checkbox{
+    width: 500px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+.one-1{
+    display: flex;
+    align-items: center;
+}
+.links > a > img{
+    width: 35px;
+    height: 35px;
+}
+.slider {
+    position: relative;
+    overflow: hidden;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* стили для обёртки, в которой заключены слайды */
+  .slider__wrapper {
+    position: relative;
+    overflow: hidden;
+  }
+
+  /* стили для контейнера слайдов */
+  .slider__items {
+    display: flex;
+    transition: transform 0.6s ease;
+  }
+
+  /* стили для слайдов */
+  .slider__item {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  /* стили для кнопок "вперед" и "назад" */
+  .slider__control {
+    position: absolute;
+    top: 50%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    color: #fff;
+    text-align: center;
+    opacity: 0.5;
+    height: 50px;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+  }
+
+  .slider__control_show {
+    display: flex;
+  }
+
+  .slider__control:hover,
+  .slider__control:focus {
+    color: #fff;
+    text-decoration: none;
+    outline: 0;
+    opacity: 0.9;
+  }
+
+  .slider__control_prev {
+    left: 0;
+  }
+
+  .slider__control_next {
+    right: 0;
+  }
+
+  .slider__control::before {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: transparent no-repeat center center;
+    background-size: 100% 100%;
+  }
+
+  .slider__control_prev::before {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+  }
+
+  .slider__control_next::before {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+  }
+
+  /* стили для индикаторов */
+  .slider__indicators {
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+    left: 0;
+    z-index: 15;
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+    margin-right: 15%;
+    margin-left: 15%;
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .slider__indicators li {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 30px;
+    height: 4px;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.5);
+    background-clip: padding-box;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+  }
+
+  .slider__indicators li.active {
+    background-color: #fff;
+  }
+
+  .slider__item {
+    height: 250px;
+    position: relative;
+  }
+
+  .slider__item_1 {
+    background: linear-gradient(45deg, #085078 10%, #85d8ce 90%);
+  }
+
+  .slider__item_2 {
+    background: linear-gradient(to right, #dd1818, #333333);
+  }
+
+  .slider__item_3 {
+    background: linear-gradient(to right, #093028, #237a57);
+  }
+
+  .slider__item_4 {
+    background: linear-gradient(to right, #243B55, #141E30);
+  }
+
+  .slider__item_inner {
+    position: absolute;
+    left: 15%;
+    right: 15%;
+    top: 20px;
+    bottom: 40px;
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .slider__item_title {
+    font-size: 2rem;
+  }
+  .slider__items_description > img{
+    width: 100%;
+    height: 350px;
+  }
+  .gallery{
+      text-align: center;
+      margin-top:100px;
+  }
+@media(max-width:800px){
+    nav > .two{
+        display: none;
+    }
+    .three{
+        width: 50%;
+    }
+    .four{
+        width: 50%;
+    }
+    .four > img{
+        width: 300px;
+    }
+    .six{
+        width: 50%;
+    }
+    .five{
+        width: 50%;
+    }
+    .five > img{
+        width: 300px;
+    }
+    .seven{
+        width: 50%;
+    }
+    .eight{
+        width: 50%;
+    }
+    .seven > img{
+        width: 300px;
+    }
+    .cage2{
+        
+        margin-top: 200px;
+        display: flex;
+        flex-direction: row;
+    }
+    .cage2 > h1{
+        position: absolute;
+        margin-top: -1025px;
+    }
+    .airplane{
+        border-right: 1px solid black;
+    }
+    .film{
+        border-bottom: none;
+    }
+    .oclock{
+        border-right: none;
+        border-bottom: 1px solid black;
+    }
+    .face{
+        border-bottom: 1px solid black;
+    }
+    .write{
+        margin-top: 200px;
+    }
+}
